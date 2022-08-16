@@ -95,7 +95,7 @@ const Quiz = ({ quizData }) => {
 
             <Container>
                 <div style={{display: "flex", justifyContent: 'center', flexWrap:"wrap", marginBottom: '20px'}}> {arrData?.length > 0 && arrData.map((el, id) => (
-                    (id<arrData.length/2) &&
+                   
                      (
                         !Ok ? (
                             currentQuiz === id ? <Button key={id} onClick={() => btnChange(id)} variant="contained" color="primary" style={{ borderRadius: "0" }}> {id + 1}</Button>
